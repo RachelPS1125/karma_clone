@@ -1,1 +1,44 @@
-
+body {
+	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1;
+	display: block;
+	margin: 8px;
+}
+div{
+	border: 1px solid Chocolate;
+}
+.top-navigation{
+	background-color: #fff;
+}
+.top-navigation > .content{
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+.top-navigation .links{
+	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+}
+.top-navigation .links li.active{
+	color: #4c5058;
+	font-weight:500px;
+}
+.top-navigation .links li{
+	display: inline-block;
+	margin-left: 1.563rem;
+} 
+.content{
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
+ol, ul{
+	list-style: none;
+}
+ul, menu, dir {
+	display: block;
+}
