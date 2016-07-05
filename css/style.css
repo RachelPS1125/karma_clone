@@ -13,7 +13,6 @@ body {
 	display: block;
 }
 div{
-	
 }
 .top-navigation{
 	background-color: #fff;
@@ -50,19 +49,40 @@ div{
 	min-width: 37.5rem;
 }
 .introduction{
-	background-image: url(http://thinkful-ed.github.io/karma-clone/img/first-background.jpg);
+	background-image: url('../Images/first-background.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 45.938rem;
 	overflow: auto;
 }
-.introduction .h1, .introduction .h3{
+.introduction h1, .introduction h3{
 	color: white;
 	text-align: center;
 	font-weight: 300px;
 }
-.introduction .h1{
-	font-size: 17.5rem;
+.introduction h1{
+	font-size: 3.125rem;
 	margin-top: 17.5rem;  
+}
+.introduction h3{
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+.buttons button{
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	color: white;
+	font-size: 1.125rem;	
+}
+.introduction .buttons{
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
 }
